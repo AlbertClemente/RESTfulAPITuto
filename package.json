@@ -1,0 +1,34 @@
+{
+  "name": "todolistapi",
+  "version": "1.0.0",
+  "description": "RESTful todoListApi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlbertClemente/RESTfulAPITuto.git"
+  },
+  "keywords": [
+    "RESTful",
+    "API",
+    "tutorial",
+    "Node.JS",
+    "MongoDB"
+  ],
+  "author": "Albert Clemente",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlbertClemente/RESTfulAPITuto/issues"
+  },
+  "homepage": "https://github.com/AlbertClemente/RESTfulAPITuto#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.3.13"
+  }
+}
